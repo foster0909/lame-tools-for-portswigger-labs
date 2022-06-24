@@ -1,7 +1,7 @@
 #!/bin/bash
 # for portswigger lab business logic error - infinite money logic flaw
 # Lab vulnerable to a logic error in which attacker can get gift cards in bulk while using discount code and after reedeming those cards attacker end up having some extra money in his balance which he can further use in getting more cards to reedem. by doing so attacker can purchase anything for free
-
+# script to automatically add coupon and gift cards in cart
 echo "setting up coupon"
 # applying discount coupon
 curl -i -s -k -X $'POST' \
