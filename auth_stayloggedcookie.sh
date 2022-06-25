@@ -1,5 +1,5 @@
 #!/bin/bash
-# For 2 factor auth bypass lab
+# For bruteforcing stay-logged-in cookie lab from portswigger academy
 # lab had vulnerability in which attacker can simply change an easily decodable cookie named "stay-logged-in" to victim's and get access
 # stay-logged-in cookie is b64 encoding of victim-name:md5-of-password
 
